@@ -1,23 +1,23 @@
 package com.example.demo.model;
 
 public class Course {
-	private int courseId;
-	private String CourseName;
-	public Course(int courseId, String courseName) {
+	private int CourseId;
+	  private String CoursName;
+	public Course(int courseId, String coursName) {
 		super();
-		this.courseId = courseId;
-		CourseName = courseName;
+		CourseId = courseId;
+		CoursName = coursName;
 	}
 	public int getCourseId() {
-		return courseId;
+		return CourseId;
 	}
 	public void setCourseId(int courseId) {
-		this.courseId = courseId;
+		CourseId = courseId;
 	}
-	public String getCourseName() {
-		return CourseName;
+	public String getCoursName() {
+		return CoursName;
 	}
-	public void setCourseName(String courseName) {
-		CourseName = courseName;
-	}	
+	public void setCoursName(String coursName) {
+		CoursName = coursName;
+	}
 }
