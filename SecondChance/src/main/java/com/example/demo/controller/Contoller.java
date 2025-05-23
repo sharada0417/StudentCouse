@@ -16,10 +16,10 @@ import java.util.Map;
 @RestController
 @RequestMapping("/app")
 public class Contoller {
-	Student ob1 = new Student("2020ict30","Thilan",25,"IT",3.0);
-	Student ob2 = new Student("2020ict21","Sandeepa",25,"IT",6.0);
-	Student ob3 = new Student("2020ict49","goka",25,"IT",4.0);
-	Student ob4 = new Student("2020ict32","person",25,"IT",4.0);
+	Student ob1 = new Student("2020ict30","Saman",25,"IT",3.0);
+	Student ob2 = new Student("2020ict21","Kasun",25,"IT",6.0);
+	Student ob3 = new Student("2020ict49","Chamara",25,"IT",4.0);
+	Student ob4 = new Student("2020ict32","sunil",25,"IT",4.0);
 	
 	
 	private Map<String,Student> mstudent = new HashMap<String,Student>();
